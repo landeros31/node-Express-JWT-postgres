@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+</head>
+<body style="background-color:#fff6d5;">
+    <h1>API para E-commerce con jwt</h1> 
+    
+
+    <h2>Endpoints</h2> 
+    <ul> 
+            <li>(get) http://localhost:3000 (pagina principal)</li>
+            <br> 
+            <li>(post) http://localhost:3000/auth/login (login)</li>
+            <br>
+            <li>(get) http://localhost:3000/auth/refresh_token (refresh_token)</li>
+            <br>
+            <li>(delete) http://localhost:3000/auth/refresh_token (logOut)</li>
+            <br>
+            <br>
+            <li>(get) http://localhost:3000/authenticateToken/products (productos)</li>
+            <br> 
+            <li>(get) http://localhost:3000/authenticateToken/products/id (producto)</li>
+            <br> 
+            <li>(post) http://localhost:3000/authenticateToken/products ( crear producto)</li>
+            <br> 
+            <li>(put) http://localhost:3000/authenticateToken/products/id ( editar producto)</li>
+            <br>
+            <li>(delete) http://localhost:3000/authenticateToken/products/id ( borrar producto)</li>
+            <br>
+            <br>
+            <li>(get) http://localhost:3000/authenticateToken/users (crear usuarios)</li>
+            <br> 
+            <li>(post) http://localhost:3000/authenticateToken/users (usuarios)</li>
+            <br> 
+    </ul>
+    <h2>Estructura de formato Json para utilizar en el body de Endpoints de productos.</h2>
+    <p>
+         
+        "name": "example name",<br> 
+        "price": 213.214,<br> 
+        "stock": 42424,<br> 
+        "description": "example description",<br> 
+        
+    </p>
+    <h2>Estructura de formato Json para utilizar en el body de Endpoints de usuarios.</h2>
+    <p>
+         
+        "user_name": "example name",<br> 
+        "user_email": expample@emial.com<br> 
+        "user_password": 4242ssdcsd4,<br> 
+        
+    </p>
+    </body>
+</html>
