@@ -30,12 +30,12 @@ Endpoints
         (delete) http://localhost:3000/auth/refresh_token (logOut)
             
             
-        (get) http://localhost:3000/authenticateToken/products (productos)
-        (get) http://localhost:3000/authenticateToken/products/id (producto)
-        (post) http://localhost:3000/authenticateToken/products ( crear producto)
-        (put) http://localhost:3000/authenticateToken/products/id ( editar producto)
-        (delete) http://localhost:3000/authenticateToken/products/id ( borrar producto)
+        (get) http://localhost:3000/products (productos)
+        (get) http://localhost:3000/products/id (producto)
+        (post) http://localhost:3000/products ( crear producto)
+        (put) http://localhost:3000/products/id ( editar producto)
+        (delete) http://localhost:3000/products/id ( borrar producto)
             
-        (get) http://localhost:3000/authenticateToken/users (crear usuarios)
-        (post) http://localhost:3000/authenticateToken/users (usuarios)
+        (get) http://localhost:3000/users (crear usuarios)
+        (post) http://localhost:3000/users (usuarios)
              
